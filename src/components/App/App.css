@@ -1,0 +1,62 @@
+:root {
+  --background-black-color: rgba(2, 12, 24, 1);
+  --background-white-color: rgb(255, 255, 255, 1);
+  --elements-black-color: rgba(35, 38, 46, 1);
+  --dark-grey-color: rgba(2, 12, 24, .8);
+  --green-color: rgba(152, 206, 0, 1);
+  --blue-color: rgba(134, 165, 217, 1);
+  --grey-color: rgba(171, 178, 191, 1);
+  --violet-color: rgba(86, 61, 124, 1);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-black-color);
+}
+
+.page{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: var(--background-black-color);
+  color: var(--background-white-color);
+  font-family: 'JetBrains Mono', 'Inter', Arial, sans-serif;
+  font-weight: 500;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+}
+.main {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.section {
+  width:  88%;
+  display: flex;
+  margin: auto;
+  box-sizing: border-box;
+  outline: 1px solid red;
+  min-height: 100px; /*delete later */
+}
+
+.main {
+  flex-direction: column;
+}

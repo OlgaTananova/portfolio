@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('inter-regular'),
+      local('Inter-regular'),
+      local('inter-nomal'),
+      local('Inter-nomal'),
+      url('./Inter/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('inter-medium'),
+local('Inter-medium'),
+local('Inter-medium'),
+local('inter-medium'),
+local('Inter'),
+url('./Inter/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Inter-bold'),
+local('inter-bold'),
+url('./Inter/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('JetBrains Mono normal'),
+local('JetBrains-mono-normal'),
+local('jetbrains-mono-normal'),
+local('jetbrainsmono-normal'),
+local('jetbrainsMonoNormal'),
+url('./JetBrainsMono/JetBrainsMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('JetBrains Mono Medium'),
+local('JetBrains-mono-medium'),
+local('jetbrains-mono-medium'),
+local('jetbrainsmono-medium'),
+local('jetbrainsMonoMedium'),
+url('./JetBrainsMono/JetBrainsMono-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('JetBrains Mono Bold'),
+local('JetBrains-mono-bold'),
+local('jetbrains-mono-bold'),
+local('jetbrainsmono-bold'),
+local('jetbrainsMonoBold'),
+url('./JetBrainsMono/JetBrainsMono-Bold.ttf') format('truetype');
+}
