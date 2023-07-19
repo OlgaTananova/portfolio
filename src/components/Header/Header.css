@@ -37,22 +37,6 @@
   color: var(--dark-grey-color);
 }
 
-.header__nav-button {
-  display: none;
-  width: 35px;
-  height: 25px;
-  border: none;
-  background-image: url('../../assets/images/menuIcon.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 13px 0 0 0;
-}
-
-.header__nav-button:hover {
-  cursor: pointer;
-  opacity: .8;
-}
-
 @media screen and (max-width: 1320px) {
   .header__intro-text-block {
     min-width: 360px;
@@ -71,9 +55,6 @@
 @media screen and (max-width: 1180px) {
   .header__nav {
     display: none;
-  }
-  .header__nav-button {
-    display: block;
   }
 }
 
@@ -110,9 +91,5 @@
   }
   .header__intro-text-block {
     min-width: 150px;
-  }
-  .header__nav-button {
-    width: 30px;
-    height: 25px;
   }
 }

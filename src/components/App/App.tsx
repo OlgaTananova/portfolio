@@ -4,7 +4,6 @@ import Footer from "../Footer/Footer.tsx";
 import Projects from "../Projects/Projects.tsx";
 import About from "../About/About.tsx";
 import Contact from "../Contact/Contact.tsx";
-import NavigationPopup from "../NavigationPopup/NavigationPopup.tsx";
 
 function App() {
 
@@ -17,7 +16,6 @@ function App() {
           <Contact />
         </main>
         <Footer />
-      <NavigationPopup />
     </div>
   )
 }

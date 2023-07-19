@@ -1,38 +1,93 @@
+.navigation-button {
+    z-index: 2;
+    cursor: pointer;
+    --x-width: calc(var(--navigation-button-height) * 1.42);
+}
+
+.navigation-button:before,
+.navigation-button:after,
+.navigation-button input {
+    box-sizing: border-box;
+    content: '';
+    width: 35px;
+    height: 4px;
+    border-radius: 5px;
+    transform-origin: left center;
+    background-color: var(--elements-black-color);
+    transition: opacity var( --animation-timing), width var(--animation-timing),
+    rotate var(--animation-timing), translate var(--animation-timing);
+}
+
+.navigation-button input {
+    appearance: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+}
+
+.navigation-button input:checked {
+    opacity: 0;
+    width: 0;
+}
+
+.navigation-button:has(input:checked):before {
+    rotate: 45deg;
+    width: var(--x-width);
+    translate: 0 calc(4px / -2);
+}
+
+.navigation-button:has(input:checked):after {
+    rotate: -45deg;
+    width: var(--x-width);
+    translate: 0 calc(4px / 2);
+}
+
 .navigation-popup {
     position: absolute;
-    top: 0;
+    top: 115px;
     right: 0;
+    transition: opacity var(--animation-timing);
+    opacity: 0;
     width: 400px;
     height: 100%;
     background-color:  rgb(255, 255, 255, 1);
-    z-index: 100;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0;
     overflow: hidden;
-    transition: slide-in 0.5s ease-out;
 }
 
-.navigation-popup__close-btn {
-    width: 30px;
-    height: 30px;
-    border: none;
-    background-image: url('../../assets/images/closeIcon.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255,1);
-    margin: 35px 15px 0 auto;
+.navigation-button:has(input:checked) + .navigation-popup {
+    opacity: 1;
 }
 
-.navigation-popup__close-btn:hover {
-    cursor: pointer;
-    opacity: .8;
+@media screen and (max-width: 1180px) {
+    .navigation-button{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin: 12px 0 0 0;
+    }
+    .navigation-button input {
+        display: block;
+    }
+    .navigation-popup {
+        display: flex;
+    }
 }
-
 @media screen and (max-width: 475px) {
     .navigation-popup {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 410px) {
+    .navigation-popup {
+        top: 100px;
+    }
+}
+

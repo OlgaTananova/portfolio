@@ -7,6 +7,8 @@
   --blue-color: rgba(134, 165, 217, 1);
   --grey-color: rgba(171, 178, 191, 1);
   --violet-color: rgba(86, 61, 124, 1);
+  --animation-timing: 0.2s ease-in-out;
+  --navigation-button-height: calc(4px * 3 + 6px * 2)
 }
 html {
   scroll-behavior: smooth;

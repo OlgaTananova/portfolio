@@ -3,10 +3,14 @@ import NavigationLinks from "../NavigationLinks/NavigationLinks.tsx";
 
 function NavigationPopup() {
     return (
-        <nav className="navigation-popup">
-            <button className="navigation-popup__close-btn"></button>
-            <NavigationLinks verticalLayout={true}/>
-        </nav>
+        <>
+            <label className='navigation-button'>
+                <input type="checkbox"/>
+            </label>
+            <nav className="navigation-popup">
+                 <NavigationLinks verticalLayout={true}/>
+            </nav>
+        </>
     )
 }
 

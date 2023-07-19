@@ -3,7 +3,7 @@ import './Projects.css';
 function Projects() {
     return (
         <section className="content-section">
-            Projects
+            <input type="checkbox" className="checkbox" id="projects"/>
         </section>
     )
 }

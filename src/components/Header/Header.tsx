@@ -1,6 +1,7 @@
 import './Header.css';
 import image from '../../assets/images/user.svg';
 import NavigationLinks from "../NavigationLinks/NavigationLinks.tsx";
+import NavigationPopup from "../NavigationPopup/NavigationPopup.tsx";
 
 function Header() {
     return (
@@ -14,7 +15,7 @@ function Header() {
                     <h2 className=" header__text header__text_name">{'< Olga Tananova / >'}</h2>
                 </div>
             </div>
-            <button className='header__nav-button'></button>
+            <NavigationPopup />
             <NavigationLinks verticalLayout={false} />
         </header>
 
