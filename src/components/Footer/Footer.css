@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  font-family: Inter, "JetBrains Mono", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.048px;
+  background-color: var(--elements-black-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 37px 0;
+}

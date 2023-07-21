@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer.tsx";
 import Projects from "../Projects/Projects.tsx";
 import About from "../About/About.tsx";
 import Contact from "../Contact/Contact.tsx";
+import Skills from "../Skills/Skills.tsx";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <main className="section main">
           <Projects />
           <About />
+          <Skills />
           <Contact />
         </main>
         <Footer />

@@ -8,11 +8,10 @@ function NavigationLinks({verticalLayout}: {verticalLayout: boolean}) {
                                                        className="navigation__link"><span className="navigation__link-hash">#</span>Projects</a>
                 </li>
                 <li className="navigation__element"><a href='#aboutme'
-                                                       className="navigation__link"><span className="navigation__link-hash">#</span>About
-                                                                                                                                    Me</a>
+                                                       className="navigation__link"><span className="navigation__link-hash">#</span>About me</a>
                 </li>
                 <li className="navigation__element"><a href='#skills'
-                                                       className="navigation__link"><span className="navigation__link-hash">#</span>Technologies</a>
+                                                       className="navigation__link"><span className="navigation__link-hash">#</span>Skills</a>
                 </li>
                 <li className="navigation__element"><a href='#contacts'
                                                        className="navigation__link"><span className="navigation__link-hash">#</span>Contact</a>

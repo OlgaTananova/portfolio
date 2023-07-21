@@ -40,14 +40,16 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  gap: 160px;
+  gap: 100px;
 }
+
 .main {
   display: flex;
   margin: auto;
   width: 100%;
   flex-direction: column;
   flex-grow: 1;
+  row-gap: 100px;
 }
 
 .section {
@@ -55,10 +57,13 @@ body {
   display: flex;
   margin: auto;
   box-sizing: border-box;
-  outline: 1px solid red;
-  min-height: 100px; /*delete later */
 }
 
-.main {
-  flex-direction: column;
+@media screen and (max-width: 475px) {
+  .app {
+    gap: 50px;
+  }
+  .main {
+    row-gap: 50px;
+  }
 }

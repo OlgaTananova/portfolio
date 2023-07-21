@@ -2,8 +2,8 @@ import './Footer.css';
 
 function Footer() {
    return (
-      <footer className="section">
-      Footer
+      <footer className="section footer">
+      &copy; 2023 Olga Tananova
       </footer>
    )
 }
