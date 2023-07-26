@@ -5,6 +5,7 @@ import Projects from "../Projects/Projects.tsx";
 import About from "../About/About.tsx";
 import Contact from "../Contact/Contact.tsx";
 import Skills from "../Skills/Skills.tsx";
+import ProjectPopup from "../ProjectPopup/ProjectPopup.tsx";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+      <ProjectPopup />
     </div>
   )
 }

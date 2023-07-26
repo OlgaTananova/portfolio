@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 100px;
+  position: relative;
 }
 
 .main {
