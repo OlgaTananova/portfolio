@@ -40,6 +40,10 @@
   opacity: .8;
 }
 
+.navigation__link_about {
+  word-spacing: -8px;
+}
+
 .navigation__link-hash {
   color: var(--green-color);
 }

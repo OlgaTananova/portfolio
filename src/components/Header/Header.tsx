@@ -2,8 +2,12 @@ import './Header.css';
 import image from '../../assets/images/user.svg';
 import NavigationLinks from "../NavigationLinks/NavigationLinks.tsx";
 import NavigationPopup from "../NavigationPopup/NavigationPopup.tsx";
+import {MouseEventHandler} from "react";
 
 function Header() {
+    const handleLinkClick: MouseEventHandler = () => {
+        return;
+    }
     return (
         <header className="section header">
             <div className="header__introduction-block">
@@ -16,7 +20,7 @@ function Header() {
                 </div>
             </div>
             <NavigationPopup />
-            <NavigationLinks verticalLayout={false} />
+            <NavigationLinks onLinkClick={handleLinkClick} verticalLayout={false} />
         </header>
 
     )

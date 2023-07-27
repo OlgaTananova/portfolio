@@ -60,6 +60,28 @@ body {
   box-sizing: border-box;
 }
 
+.scroll-home-button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background-image: url('../../assets/images/arrow_drop_up.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--green-color);
+  z-index: 5;
+  transition: all var(--animation-timing);
+}
+
+.scroll-home-button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px var(--green-color);
+}
+
 @media screen and (max-width: 475px) {
   .app {
     gap: 50px;
