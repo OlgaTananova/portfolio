@@ -84,12 +84,13 @@
 @media screen and (max-width: 475px) {
     .navigation-popup {
         width: 100%;
+        top: 90px;
     }
 }
 
 @media screen and (max-width: 410px) {
     .navigation-popup {
-        top: 100px;
+        top: 90px;
     }
 }
 

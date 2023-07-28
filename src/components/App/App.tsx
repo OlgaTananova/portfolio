@@ -60,7 +60,7 @@ function App() {
     }
 
     const handleBackHomeClick: MouseEventHandler = () => {
-        window.scroll(0,0);
+        window.scroll(0, 0);
     }
     const handleMoveBackClick = () => {
         const index = parseInt(currentProject.id || '0') - 1;
@@ -110,7 +110,8 @@ function App() {
                 <Contact/>
             </main>
             <Footer/>
-            <button onClick={handleBackHomeClick} className='scroll-home-button'></button>
+            <button onClick={handleBackHomeClick}
+                    className='scroll-home-button'></button>
             <ProjectPopup isProjectPopupOpened={isProjectPopupOpened}
                           onClose={handleProjectPopupClose}
                           projects={allProjects}

@@ -1,5 +1,6 @@
 .project {
   display: flex;
+  box-sizing: border-box;
   width: calc(100% - 60px);
   flex-direction: column;
   gap: 20px;
@@ -20,7 +21,7 @@
 .project__image {
   display: flex;
   flex-shrink: 0;
-  width: 300px;
+  width: 396px;
   height: 240px;
   margin: 0;
   background-position: top left;
@@ -89,6 +90,7 @@
   .project__wrapper {
     flex-direction: column;
   }
+
   .project__image {
     align-self: center;
   }
@@ -103,18 +105,27 @@
 }
 
 @media screen and (max-width: 768px) {
-  .project{
+  .project {
     padding: 10px;
   }
+
   .project__name {
     font-size: 20px;
     margin: 0;
   }
+
   .project__description {
     font-size: 16px;
   }
+
   .project__image {
     display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .project {
+    width: calc(100% - 50px);
   }
 }
 
@@ -122,13 +133,16 @@
   .project__name {
     font-size: 18px;
   }
+
   .project__description {
     font-size: 14px;
     height: 210px;
   }
+
   .project__stack {
     font-size: 14px;
   }
+
   .project__link {
     font-size: 12px;
   }
@@ -142,10 +156,12 @@
     white-space: nowrap;
     overflow: hidden;
   }
+
   .project__description {
     font-size: 12px;
     height: 190px;
   }
+
   .project__stack {
     font-size: 12px;
     height: 50px;
