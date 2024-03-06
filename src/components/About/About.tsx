@@ -5,8 +5,11 @@ function About(){
         <section className="content-section about" id='aboutme'>
                 <h2 className="section-heading" >About me</h2>
             <article className="about__article">
-                Hi, I'm Olga, an entry-level web developer with a passion for creating visually appealing and functional websites and applications. After completing Practicum's web development course, I gained hands-on experience with technologies such as JavaScript, TypeScript, CSS, HTML, React, Redux, Git, MongoDB, Webpack, and more.
-                As a web developer, I value teamwork and communication, and I'm always willing to help my colleagues. I have strong interpersonal skills and I'm receptive to constructive feedback. I bring a strong work ethic and attention to detail to my work, and I'm committed to creating quality work. I'm eager to apply my skills and knowledge to a new role and grow as a web developer.
+                Hello, my name is Olga. I am a Full Stack Developer skilled in building web applications using the .NET Stack,
+                React, and TypeScript. Transitioning from a procurement specialist role,
+                I have learned to work effectively under high-pressure environments and meet stringent deadlines.
+                I excel in fast-paced settings, constantly aiming to enhance my technical skills and adapt to new challenges.
+                Currently, I am seeking a position that involves constructing complex web applications, primarily using the .NET stack.
             </article>
         </section>
     )

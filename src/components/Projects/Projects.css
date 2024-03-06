@@ -14,6 +14,8 @@
 .project-card {
   list-style: none;
   position: relative;
+  display: flex;
+  flex-direction: column;
   border-radius: 14px;
   background: var(--background-white-color, #FFF);
   border: 2px solid var(--background-white-color, #FFF);
@@ -42,10 +44,12 @@
 }
 
 .project-card__image {
+  max-inline-size: 100%;
+  block-size: auto;
   height: 240px;
   border-radius: 14px 14px 0 0;
-  background-position: center;
-  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .project-card__about {

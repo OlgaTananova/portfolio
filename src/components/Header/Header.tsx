@@ -15,7 +15,7 @@ function Header() {
                      src={image}
                      alt="User's photo"/>
                 <div className="header__intro-text-block">
-                    <h2 className="header__text header__text_greeting">Hi, I'm a web-developer</h2>
+                    <h2 className="header__text header__text_greeting">Hi, I'm a full-stack Software Developer</h2>
                     <h2 className=" header__text header__text_name">{'< Olga Tananova / >'}</h2>
                 </div>
             </div>

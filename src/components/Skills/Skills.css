@@ -1,7 +1,7 @@
 .skills__list {
   width: 60%;
   font-family: Inter, "JetBrains Mono", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -45,8 +45,8 @@
 }
 
 .skills__image {
-  width: 88px;
-  height: 88px;
+  width: 60px;
+  height: 60px;
 }
 
 @media screen and (max-width: 950px) {
